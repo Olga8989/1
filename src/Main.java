@@ -5,7 +5,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int speedOfPlayer1 = 0;
+        int speedOfPlayer1 = 10;
         int speedOfPlayer2 = 0;
         int speedOfPlayer3 = 0;
         int income = 1;
