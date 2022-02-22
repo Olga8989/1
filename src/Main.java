@@ -5,12 +5,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int speedOfPlayer1 = 5;
-        int speedOfPlayer2 = 5;
-        int speedOfPlayer3 = 2;
-
+        int speedOfPlayer1 = 0;
+        int speedOfPlayer2 = 0;
+        int speedOfPlayer3 = 0;
         int income = 1;
-
         boolean isGreenLight = false;
 
 
@@ -31,6 +29,7 @@ public class Main {
             System.out.println("Green, speedOfPlayer3 выбывает:" + 0);
         } else {
             System.out.println("Red, speedOfPlayer3 выбывает:" + income);
+
 
         }
     }
